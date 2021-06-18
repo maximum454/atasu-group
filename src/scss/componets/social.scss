@@ -1,0 +1,36 @@
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  &__item{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    transition: opacity .3s ease;
+    &:hover{
+      opacity: .6;
+      transition: opacity .3s ease;
+    }
+    &.facebook{
+      background-image: url("../img/icons-sprite.svg#bxl-facebook");
+    }
+    &.linkedin{
+      background-image: url("../img/icons-sprite.svg#bxl-linkedin");
+    }
+    &.instagram{
+      background-image: url("../img/icons-sprite.svg#bxl-instagram");
+    }
+    &.youtube{
+      background-image: url("../img/icons-sprite.svg#bxl-youtube");
+    }
+    &.telegram{
+      background-image: url("../img/icons-sprite.svg#bxl-telegram");
+    }
+    &.mail{
+      background-image: url("../img/icons-sprite.svg#mail");
+    }
+  }
+}

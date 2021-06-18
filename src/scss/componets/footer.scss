@@ -1,3 +1,31 @@
 .footer {
   background: #0B2C73;
+  padding: 47px 0;
+  border-top: 1px solid rgba(#FFFFFF,.2);
+  &__body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__copy{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+  &__logo{
+    text-decoration: none;
+    display: block;
+    transition: opacity .3s ease;
+    &:hover{
+      opacity: .6;
+      transition: opacity .3s ease;
+    }
+    img{
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
 }

@@ -8,6 +8,11 @@
   &__item {
     background-color: #fff;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+    transition: all .3s ease;
+    &:hover{
+      transition: all .3s ease;
+      box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+    }
   }
 
   &__img {

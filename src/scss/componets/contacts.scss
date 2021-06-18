@@ -33,6 +33,11 @@
     display: block;
     text-decoration: none;
     margin-bottom: 6px;
+    transition: opacity .3s ease;
+    &:hover{
+      opacity: .6;
+      transition: opacity .3s ease;
+    }
   }
   &__text{
     font-style: normal;
@@ -48,6 +53,11 @@
     line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: opacity .3s ease;
+    &:hover{
+      opacity: .6;
+      transition: opacity .3s ease;
+    }
   }
   @include r(1023){
     &__title{

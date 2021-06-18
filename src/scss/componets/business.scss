@@ -19,6 +19,10 @@
     position: relative;
     text-align: center;
     background: #F2F2F2;
+    &:hover{
+      transition: all .3s ease;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+    }
     img{
       max-width: 100%;
       object-fit: cover;
