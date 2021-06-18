@@ -3,11 +3,6 @@
 @import "fonts";
 @import "icon";
 @import "buttons";
-@import "form";
-@import "table";
-@import "tabs";
-@import "alert";
-@import "remodal";
 
 * {
     box-sizing: border-box;
@@ -48,11 +43,11 @@ body {
 }
 
 .container {
-    max-width: 1392px;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .w100 {
@@ -96,11 +91,75 @@ p {
     display: block;
 }
 
+.embed-responsive{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    &::before {
+        display: block;
+        content: "";
+    }
+    &.embed-responsive-21by9{
+
+    }
+    &.embed-responsive-16by9{
+        &::before {
+            padding-top: 56.25%;
+        }
+    }
+    &.embed-responsive-4by3{
+
+    }
+    &.embed-responsive-1by1{
+
+    }
+    embed,
+    iframe,
+    object,
+    video,
+    .embed-responsive-item{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+
 
 //Шапка
 @import "componets/header";
 
 //Подвал
 @import "componets/footer";
+
+//Статьи
+@import "componets/articles";
+
+//Выгодные предложения
+@import "componets/offers";
+
+//Видео
+@import "componets/video";
+
+//Цифры
+@import "componets/numbers";
+
+//В деле
+@import "componets/business";
+
+//Логистика
+@import "componets/logistic";
+
+//Доставка
+@import "componets/delivery";
+
+//Контакты
+@import "componets/contacts";
 
 

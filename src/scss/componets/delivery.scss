@@ -1,0 +1,22 @@
+.delivery{
+  background: #003D8F;
+  padding: 50px 0;
+  &__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 110px;
+  }
+  &__body{
+    img{
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+  }
+}

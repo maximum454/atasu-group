@@ -1,0 +1,28 @@
+.offers{
+  background-image: url("../img/offers-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 24px;
+  margin: 50px auto;
+  &__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 0 0 20px;
+  }
+  @include r(767){
+    display: none;
+  }
+}
