@@ -811,6 +811,26 @@ template {
   background-image: url("../img/icons-sprite.svg#mail");
 }
 
+.icon-ship {
+  background-image: url("../img/icons-sprite.svg#icon-ship");
+}
+
+.icon-train {
+  background-image: url("../img/icons-sprite.svg#icon-train");
+}
+
+.icon-lorry {
+  background-image: url("../img/icons-sprite.svg#icon-lorry");
+}
+
+.icon-package {
+  background-image: url("../img/icons-sprite.svg#icon-package");
+}
+
+.icon-airplane {
+  background-image: url("../img/icons-sprite.svg#icon-airplane");
+}
+
 .btn-group {
   margin: 0 -10px;
 }
@@ -1215,6 +1235,20 @@ p {
   background-image: url("../img/header-bg.png");
   background-size: cover;
   background-position: center;
+  padding: 90px 0;
+}
+
+.header__logo {
+  position: absolute;
+  top: 30px;
+}
+
+.header__logo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .footer {
@@ -1781,6 +1815,31 @@ p {
 
 .social__item.mail {
   background-image: url("../img/icons-sprite.svg#mail");
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.services__item {
+  text-align: center;
+}
+
+.services__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 119.1%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.services .icon {
+  width: 40px;
+  height: 40px;
 }
 
 @media only screen and (max-width: 1023px) {
