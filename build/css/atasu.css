@@ -1211,6 +1211,12 @@ p {
   border: 0;
 }
 
+.header {
+  background-image: url("../img/header-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .footer {
   background: #0B2C73;
   padding: 47px 0;
