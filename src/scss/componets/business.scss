@@ -46,6 +46,7 @@
       grid-template-columns: repeat(auto-fit, minmax(254px, 1fr));
     }
   }
+
   @include r(767){
     &__body{
       gap: 30px;
