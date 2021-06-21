@@ -1908,6 +1908,13 @@ p {
   margin: 0 auto 10px;
 }
 
+@media only screen and (max-width: 1154px) {
+  .business__body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(254px, 1fr));
+  }
+}
+
 @media only screen and (max-width: 1023px) {
   .logistic {
     grid-gap: 20px;
