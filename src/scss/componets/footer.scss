@@ -28,4 +28,16 @@
       height: auto;
     }
   }
+  @include r(767){
+    &__body{
+      flex-direction: column;
+      gap: 20px;
+    }
+    &__logo{
+      order: -1;
+    }
+    &__copy{
+      order: 3;
+    }
+  }
 }

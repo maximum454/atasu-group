@@ -1,6 +1,8 @@
 .services{
   display: flex;
   gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
   &__item{
     text-align:center;
   }
@@ -15,5 +17,24 @@
   .icon{
     width: 40px;
     height: 40px;
+    margin: 0 auto 10px;
   }
+  @include r(1023){
+    justify-content: center;
+    &__item{
+      text-align:center;
+      min-width: 200px;
+    }
+  }
+  @include r(767){
+    &__item{
+      text-align:center;
+      min-width: auto;
+      max-width: 120px;
+    }
+    &__name{
+      font-size: 12px;
+    }
+  }
+
 }
