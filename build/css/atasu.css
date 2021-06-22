@@ -1248,8 +1248,8 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.21) 14.88%, rgba(0, 0, 0, 0) 25.78%), -o-linear-gradient(232.9deg, rgba(0, 0, 0, 0.21) 11.71%, rgba(0, 0, 0, 0) 31.53%), -o-linear-gradient(291.42deg, rgba(0, 0, 0, 0.21) 7.11%, rgba(0, 0, 0, 0) 24.92%);
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.21) 14.88%, rgba(0, 0, 0, 0) 25.78%), linear-gradient(217.1deg, rgba(0, 0, 0, 0.21) 11.71%, rgba(0, 0, 0, 0) 31.53%), linear-gradient(158.58deg, rgba(0, 0, 0, 0.21) 7.11%, rgba(0, 0, 0, 0) 24.92%);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.21) 19.88%, rgba(0, 0, 0, 0) 30.78%), -o-linear-gradient(232.9deg, rgba(0, 0, 0, 0.21) 20%, rgba(0, 0, 0, 0) 50%), -o-linear-gradient(291.42deg, rgba(0, 0, 0, 0.21) 20%, rgba(0, 0, 0, 0) 50%);
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.21) 19.88%, rgba(0, 0, 0, 0) 30.78%), linear-gradient(217.1deg, rgba(0, 0, 0, 0.21) 20%, rgba(0, 0, 0, 0) 50%), linear-gradient(158.58deg, rgba(0, 0, 0, 0.21) 20%, rgba(0, 0, 0, 0) 50%);
 }
 
 .header__body {
@@ -2081,5 +2081,11 @@ p {
 
   .services__name {
     font-size: 12px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+  .header {
+    background-image: url("../img/header-bg-x2.png");
   }
 }

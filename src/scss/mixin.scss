@@ -81,6 +81,7 @@ $maxWidth: 1200;
 }
 
 
+
 @function max($numbers...) {
 	@return m#{a}x(#{$numbers});
 }

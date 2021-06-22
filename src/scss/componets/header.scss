@@ -6,6 +6,10 @@
   max-height: 900px;
   height: 100vh;
   position: relative;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+    background-image: url("../img/header-bg-x2.png");
+  }
   &:before{
     content: '';
     position: absolute;
@@ -13,7 +17,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(360deg, rgba(0, 0, 0, 0.21) 14.88%, rgba(0, 0, 0, 0) 25.78%), linear-gradient(217.1deg, rgba(0, 0, 0, 0.21) 11.71%, rgba(0, 0, 0, 0) 31.53%), linear-gradient(158.58deg, rgba(0, 0, 0, 0.21) 7.11%, rgba(0, 0, 0, 0) 24.92%);
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.21) 19.88%, rgba(0, 0, 0, 0) 30.78%),
+    linear-gradient(217.1deg, rgba(0, 0, 0, 0.21) 20%, rgba(0, 0, 0, 0) 50%),
+    linear-gradient(158.58deg, rgba(0, 0, 0, 0.21) 20%, rgba(0, 0, 0, 0) 50%);
   }
   &__body{
     display: flex;
