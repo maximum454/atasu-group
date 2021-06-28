@@ -1130,7 +1130,7 @@ body.lock {
 }
 
 .d-none {
-  display: none;
+  display: none !important;
 }
 
 .d-flex {
@@ -1518,6 +1518,11 @@ p {
   line-height: 150%;
   color: #FFFFFF;
   margin: 0 0 20px;
+}
+
+.offers__subtitle a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .video {

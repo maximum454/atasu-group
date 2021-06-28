@@ -21,6 +21,10 @@
     line-height: 150%;
     color: #FFFFFF;
     margin: 0 0 20px;
+    a{
+      color: #fff;
+      text-decoration: none;
+    }
   }
   @include r(767){
     display: none;
