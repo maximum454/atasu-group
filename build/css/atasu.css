@@ -1287,6 +1287,8 @@ p {
 
 .header__logo-big {
   margin-bottom: 32px;
+  display: block;
+  text-decoration: none;
 }
 
 .header__logo-big img {
