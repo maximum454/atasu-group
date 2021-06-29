@@ -2,7 +2,7 @@
   background-image: url("../img/header-bg.png");
   background-size: cover;
   background-position: center;
-  padding: 90px 0;
+  padding: 90px 40px 60px;
   max-height: 900px;
   height: 100vh;
   position: relative;
@@ -25,7 +25,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
     position: relative;
   }
   &__logo{
@@ -63,10 +62,8 @@
     text-transform: uppercase;
     color: #FFFFFF;
   }
-  .container{
-    height: 100%;
-  }
   @include r(767){
+    padding: 90px 15px 60px;
     &:before{
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
     }

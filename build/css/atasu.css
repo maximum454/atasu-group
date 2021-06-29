@@ -1235,7 +1235,7 @@ p {
   background-image: url("../img/header-bg.png");
   background-size: cover;
   background-position: center;
-  padding: 90px 0;
+  padding: 90px 40px 60px;
   max-height: 900px;
   height: 100vh;
   position: relative;
@@ -1263,7 +1263,6 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 100%;
   position: relative;
 }
 
@@ -1307,10 +1306,6 @@ p {
   line-height: 119.1%;
   text-transform: uppercase;
   color: #FFFFFF;
-}
-
-.header .container {
-  height: 100%;
 }
 
 .footer {
@@ -1894,6 +1889,12 @@ p {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  max-width: 1110px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  right: 0;
 }
 
 .services__item {
@@ -1957,6 +1958,10 @@ p {
 
   .d-mobile-none {
     display: none !important;
+  }
+
+  .header {
+    padding: 90px 15px 60px;
   }
 
   .header:before {
