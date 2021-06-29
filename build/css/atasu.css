@@ -1281,7 +1281,7 @@ p {
 
 .header__right {
   text-align: right;
-  margin-top: -30px;
+  margin-top: -50px;
 }
 
 .header__logo-big {
@@ -1892,7 +1892,7 @@ p {
   max-width: 1110px;
   margin: 0 auto;
   position: absolute;
-  bottom: 60px;
+  bottom: 40px;
   left: 0;
   right: 0;
 }
