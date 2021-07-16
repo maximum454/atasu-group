@@ -3,7 +3,4 @@
   grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
   grid-gap: 30px;
   margin: 50px auto;
-  @include r(767){
-    display: none;
-  }
 }
